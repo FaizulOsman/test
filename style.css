@@ -1,0 +1,13 @@
+input:focus{
+    font-weight: 700;
+    color: green;
+    border: 1px solid red;
+    font-size: 20px;
+}
+li:nth-child(2n-2){
+    color: rgb(53, 15, 223);
+    background-color: rgb(187, 177, 177);
+}
+a:visited{
+    color:red;
+}
