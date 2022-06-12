@@ -84,8 +84,19 @@ th, td{
 
 
 
-
-
+/* ===================== 7 - Transform ======================== */
+.box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid gray;
+}
+.outer{
+    background-color: lightgray;
+}
+.inner{
+    background-color: tomato;
+    transform: scale(2);
+}
 
 
 
