@@ -1,9 +1,7 @@
 // ========================= 18 - Document Object Model (DOM) ========================
-
 // =============== Browser er Console a html tag gula dekha jai =================
 // console.log(document)
 // console.log(document.body)
-
 
 
 // =========== Id k directly call kora jai ===========
@@ -20,12 +18,8 @@
 // // lorem[1].style.color="blue";
 
 
-
-
-
 // =========== QuerySelector sesect only first one ===========
 // document.querySelector(".selector p").style.color="red";
-
 
 
 // =========== QuerySelectorAll sesect All items as input ===========
@@ -37,19 +31,12 @@
 // // selector[0].style.color="red";
 
 
-
-
-
 // =========== Body Syle ===========
 // document.body.style.backgroundColor="cyan";
 
 
-
-
-
 // =========== setAttribute ===========
 // document.querySelector(".selector p").setAttribute('title', 'hi');
-
 
 
 // =========== Add new "p" in a "Id" ===========
@@ -59,15 +46,11 @@
 // selector.appendChild(newParagraph);
 
 
-
-
 // =========== Add new li in ul ===========
 // var list = document.getElementById("list");
 // var addList = document.createElement("li");
 // addList.innerHTML="List - 4";
 // list.appendChild(addList);
-
-
 
 
 // =========== Child Nodes ===========
