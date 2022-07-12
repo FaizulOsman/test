@@ -1,0 +1,138 @@
+/*  ==================== 5_5-2 (border-image-slice) =================== */
+/* h1 {
+    width: 300px;
+    height: 200px;
+    margin: 200px auto;
+    border: 5px solid blue;
+    border-image-source: url("images/border-image.jpg");
+    border-image-slice: 25;
+} */
+
+
+/*  ==================== 5_5-4 (position: sticky;) =================== */
+/* .dummy {
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    margin: 10px 0;
+}
+
+.dummy-scroll {
+    width: 200px;
+    height: 100px;
+    background-color: brown;
+    margin-bottom: 10px;
+}
+
+.sticky {
+    background-color: brown;
+    position: sticky;
+    top: 100px; 
+}*/
+
+
+
+
+
+/*  ==================== 6-3 (table, th, tb, tr, td) =================== */
+/* table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid gray;
+    padding: 5px 10px;
+} */
+
+
+
+
+/*  ==================== 6-5 (Simple navbar and internal navigation among files) =================== */
+/* nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+nav li a:hover {
+    background-color: red;
+    color: white;
+} */
+
+
+
+/*  ==================== 6-6 (Add nested menu dropdown option on mouseover) =================== */
+/* nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav li:hover {
+    background-color: gray;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+
+nav ul>li:hover>ul {
+    display: block;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: lightgray;
+    padding: 0;
+}
+
+.dropdown li {
+    margin: 0;
+    padding: 0 14px;
+} */
+
+
+
+
+
+
+
+/*  ==================== 6-7 (CSS specificity, style priority and !important) =================== */
+
+
+
+
+
+
+/*  ==================== 6-8 (custom property and use var, calc) =================== */
+/* :root {
+    --main-color: blue;
+    --gray-border: 2px solid gray;
+    --border-color: blueviolet;
+    --background-color: burlywood;
+}
+
+h1 {
+    color: var(--main-color);
+    border: var(--gray-border);
+    background-color: var(--background-color);
+    border-color: var(--border-color);
+} */
