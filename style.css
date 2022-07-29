@@ -318,3 +318,427 @@ h1 {
     padding: 10px;
     margin: 10px;
 } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==================================================
+================ Try Myself - Gear Box  ================
+===================================================*/
+/* .gearFstPosition {
+    transform: rotate(-12deg);
+}
+
+
+@keyframes rotate {
+    0% {
+        transform: rotate(-12deg);
+    }
+
+    100% {
+        transform: rotate(350deg);
+    }
+}
+
+.gear img:first-child {
+    width: 200px;
+}
+
+.gear:hover img:first-child {
+    animation: rotate 5s ease-in-out .1s infinite alternate;
+}
+
+@keyframes reverseRotate {
+    0% {
+        transform: rotate(-12deg);
+    }
+
+    100% {
+        transform: rotate(-368deg);
+    }
+}
+
+.gear img:last-child {
+    margin-left: -25px;
+    width: 200px;
+}
+
+.gear:hover img:last-child {
+    animation: reverseRotate 5s ease-in-out .1s infinite alternate;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==================================================
+================ Try Myself - Ball bounce frame  ================
+=================================================== */
+/* .box {
+    width: 550px;
+    height: 300px;
+    border: 3px solid blueviolet;
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+}
+
+.ball {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+}
+
+.ball-1 {
+    background-color: red;
+    left: 250px;
+}
+
+.ball-2 {
+    background-color: green;
+    left: 250px;
+}
+
+@keyframes ballOne {
+    0% {
+        left: 250px;
+        bottom: 0;
+    }
+
+    25% {
+        left: 0;
+        bottom: 100px;
+    }
+
+    50% {
+        left: 250px;
+        bottom: 250px;
+    }
+
+    75% {
+        bottom: 100px;
+        left: 500px;
+    }
+
+    100% {
+        left: 250px;
+        bottom: 0;
+    }
+}
+
+.box:hover .ball-1 {
+    animation: ballOne 6s ease-in-out infinite;
+}
+
+@keyframes ballTwo {
+    0% {
+        left: 250px;
+        bottom: 0;
+    }
+
+    25% {
+        left: 0;
+        bottom: 100px;
+    }
+
+    50% {
+        left: 250px;
+        bottom: 250px;
+    }
+
+    75% {
+        bottom: 100px;
+        left: 500px;
+    }
+
+    100% {
+        left: 250px;
+        bottom: 0;
+    }
+}
+
+.box:hover .ball-2 {
+    animation: ballTwo 6s ease-in-out 3s infinite;
+} */
+
+
+
+
+
+
+
+
+
+/*  ==================== 8-2 (Flexbox, flex direction, justify content, align items) =================== */
+/* .container {
+    height: 300px;
+    border: 3px solid blue;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 3px solid blueviolet;
+    flex-grow: 1;
+} */
+
+
+
+/*  ==================== 8-3 (Create Login Form And Flexible Nav Using Flexbox) =================== */
+/* header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+section.form {
+    display: flex;
+    justify-content: center;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.login-form input {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.login-form input[type="submit"] {
+    background-color: #3b3bf5;
+    color: white;
+    border: 0;
+    padding: 10px 0;
+    border-radius: 5px;
+} */
+
+
+
+/*  ==================== 8-4 (CSS Grid layout, grid gap) =================== */
+/* .container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 200px auto 100px 50px;
+}
+
+.item {
+    border: 2px solid blueviolet;
+}
+
+.item-2 {
+    grid-row: 2/6;
+    grid-column: 1/4;
+} */
+
+
+
+/*  ==================== 8-5 (Create calendar using css grid and flex box) =================== */
+/* .calendar {
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 50px repeat(5, 75px);
+    grid-gap: 5px;
+}
+
+.date,
+.day {
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.date:hover {
+    background-color: #72f8f8;
+    margin: 3px;
+}
+
+.day {
+    font-weight: bold;
+}
+
+.other-month {
+    color: gray;
+} */
+
+
+
+
+/*  ==================== 8-6 (Explore Responsiveness - Media Query) =================== */
+/* .container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+}
+
+.food {
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+
+    .food {
+        background-color: green;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+    }
+} */
+
+
+
+/*  ==================== 8-7 (Seven things for responsive) =================== */
+/* .container {
+    display: flex;
+}
+
+.split {
+    width: 50%;
+}
+
+.split img {
+    width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+
+    .split {
+        width: 100%;
+    }
+} */
+
+
+
+
+/*  ==================== 8-8 Recap (Seven things for responsive) =================== */
+/* body {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.food {
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.food img {
+    width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+} */
+
+
+
+
+
+
+/*  ===============================================================
+============= 8-8 Recap (Seven things for responsive) =============
+================================================================ */
+
+
+/* ====================== 9-1 () ======================= */
